@@ -1,0 +1,22 @@
+{
+  "author" : "Max Gerlach",
+  "commands" : [
+    {
+      "script" : "main.js",
+      "handler" : "onRun",
+      "shortcut" : "command shift c",
+      "name" : "Copy",
+      "identifier" : "copy"
+    }
+  ],
+  "menu": {
+    "items": [
+      "copy"
+    ]
+  },
+    "identifier" : "com.klick.mgerlach.copy",
+  "version" : "1.0",
+  "description" : "Copy layer id to clipboard",
+  "authorEmail" : "mgerlach@klick.com",
+  "name" : "Copy Layer ID"
+}
